@@ -1,0 +1,53 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif; /* Fonte com estilo japonês */
+    background-color: #E6F7FF; /* Um azul claro */
+    color: #333; /* Cor de texto principal */
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px 40px; /* Maior espaçamento */
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px; /* Espaço no fundo do container */
+}
+
+.btn {
+    transition: all 0.3s; /* Transição suave */
+    border: none; /* Remove bordas padrão */
+}
+
+.btn:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15); /* Sombra no hover */
+}
+
+.btn-secondary {
+    background-color: #3D5A80; /* Um azul escuro */
+    color: #fff;
+}
+
+.btn-info {
+    background-color: #98C1D9; /* Um azul médio */
+    color: #fff;
+}
+
+#resultado {
+    border: 2px solid #17a2b8;
+    padding: 20px 30px; /* Maior espaçamento */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* Altura fixa */
+    margin-top: 30px;
+}
+
+.display-3, .h4, .h5 {
+    margin-bottom: 15px;
+}
+
+.btn:hover {
+    ...
+    transform: scale(1.05); /* Aumenta o tamanho do botão em 5% */
+}
