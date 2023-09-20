@@ -1,7 +1,8 @@
 body {
-    font-family: 'Noto Sans JP', sans-serif; /* Fonte com estilo japonês */
-    background-color: #E6F7FF; /* Um azul claro */
+    font-family: 'Roboto', sans-serif;
+    background-color: #e0e0e0; 
     color: #333; /* Cor de texto principal */
+
 }
 
 .container {
@@ -13,12 +14,19 @@ body {
 }
 
 .btn {
-    transition: all 0.3s; /* Transição suave */
-    border: none; /* Remove bordas padrão */
+    transition: all 0.3s; 
+    border: none; 
+    background: linear-gradient(45deg, #69a97d, #68b98f);
+}
+
+
+.btn-danger {
+    background: linear-gradient(45deg, #F56, #F58);
 }
 
 .btn:hover {
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15); /* Sombra no hover */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15); 
+    transform: translateY(-2px); 
 }
 
 .btn-secondary {
@@ -27,9 +35,10 @@ body {
 }
 
 .btn-info {
-    background-color: #98C1D9; /* Um azul médio */
+    background: linear-gradient(45deg, #6a9ead, #6aafbf);
     color: #fff;
 }
+
 
 #resultado {
     border: 2px solid #17a2b8;
@@ -47,7 +56,6 @@ body {
     margin-bottom: 15px;
 }
 
-.btn:hover {
-    ...
-    transform: scale(1.05); /* Aumenta o tamanho do botão em 5% */
+#kanji, #hiragana {
+    font-family: 'Noto Sans JP', sans-serif;
 }
